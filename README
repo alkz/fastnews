@@ -1,0 +1,40 @@
+  ##############################################
+  ###-----------------FastNews----------------##
+  ##############################################
+  /*==========================================/*
+  /*\\ Author    :  Alessandro Carrara(Alkz)\\/*
+  /*\\ Version   :  3.0                     \\/*
+  /*\\ Created   :  Aug 12  2007            \\/*
+  /*\\ ----------------------------         \\/*
+  /*\\ Last Update :   Nov 20  2009         \\/*
+  /*\\ ----------------------------         \\/*
+  /*\\ Country    :   Italy                 \\/*
+  /*\\ City       :   Bergamo               \\/*
+  /*\\ E-mail     :   alkzx@email.it        \\/*
+  /*\\ MSN        :   alkzx@hotmail.it      \\/*
+  /*\\ WWW        :   alkz.altrevista.org   \\/*
+  /*\\                                      \\/*
+  /*\\ ========================================\
+  /*\\ ---------------------------------------*/
+
+
+FastNews E' un sistema completamente gratuito per l'inserimento veloce, semplice ed efficace delle news all'interno del vostro sito!
+E' ora di smettere  di copiare e incollare le strutture delle tabelle e assicurarsi che siano posizionate bene per non sballare la pagina!
+Con FastNews vi basta completare un semplice form e la news sara' subito inserita, in piu' i template di FastNews sono molto semplici da cambiare, basta modificare il file "style.css" ed avrete il layout che volete voi!. 
+
+How to Install FastNews?
+
+Innanzitutto per pnstallare FastNews dovrete aprire il file "config.inc.php" ed inserire le informazioni riguardanti il vostro Database MySQL(FastNews necessita di un database MySQL dovrete ,quindi, richiedete al vostro Provider l'attivazione del servizio).
+Una volta compilata la sezione"config.inc.php", uppate l'intera cartella "fastnews3.0"(dentro sara' presente anche la directory: "dropAll", contenete lo script per la disinstallazione il quale sarebbe meglio non uppare).
+Appena il tutto sara' uppato, per prima cosa dovrete accedere al file "form_install.php" per installare il database MySQL(supponendo che il vostro dominio sia: mario.net dovrete inserire questo percorso: mario.net/fastnews3.0/form_install.php), qui dovrete scegliere il nome dell'utente amministratore, la sua password e la password di FastNews(necessaria per il resettamento del Database).
+Una volta installato sara' semplice: bastera' loggarvi cliccando nei link in basso "Login" ed avrete accesso al menu privato dell'amministratore, sara' possibile, inoltre, cliccando su "View News" vedere un messaggio di avvenuta installazione(che potrete, naturalmente, eliminare).
+
+ATTENZIONE! una volta installato il tutto, cancellate subito dall'host i file: "form_install.php e "install.php".
+Nel caso voleste disinstallare l'intero FastNews bastera' uppare il file "dropAll.php" contenuto nella omonima cartella, eseguirlo, cancellare la cartella "fastnews3.0" ed il gioco e' fatto!
+Non mi rimane che augurarvi una buona navigazione e un buon utilizzo di FastNews!
+
+
+Alkz
+
+
+FastNews V3.0 - Copyright © By Alkz 2007-2009
