@@ -1,0 +1,179 @@
+/*
+
+  ##############################################
+  ###-----------------FastNews----------------##
+  ##############################################
+  /*==========================================/*
+  /*\\ Author    :  Alessandro Carrara(Alkz)\\/*
+  /*\\ Version   :  3.0                     \\/*
+  /*\\ Created   :  Aug 12  2007            \\/*
+  /*\\ ----------------------------         \\/*
+  /*\\ Last Update :   Aug 20  2009         \\/*
+  /*\\ ----------------------------         \\/*
+  /*\\ Country    :   Italy                 \\/*
+  /*\\ City       :   Bergamo               \\/*
+  /*\\ E-mail     :   alkzx@email.it        \\/*
+  /*\\ MSN        :   alkzx@hotmail.it      \\/*
+  /*\\ WWW        :   alkz.altrevista.org   \\/*
+  /*\\                                      \\/*
+  /*\\ ========================================\
+  /*\\ ---------------------------------------*/
+
+
+body {
+  width: 100%;
+  background-color: #d4d4d4;
+  color: #000000;
+  font-family: Courier New, Monospace, Terminus;
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  background-color: #d4d4d4;
+  color: #000000;
+  font-family: Courier New, Monospace, Terminus;
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+hr {
+  border: solid 1px #02CCFC;
+}
+
+fieldset {
+  border: solid 1px #02CCFC;
+}
+
+select, option, textarea, input { 
+  background-color: #FFFFFF;
+  border: 1px solid #02CCFC;
+  color: #000000;
+  font-family: Courier New, Monospace, Terminus;
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#title {
+  color: color: #990000;
+  font-size: 28px;
+  width: 900px;
+  margin-top: 50px;
+  font-family: Courier New, Monospace, Terminus;
+  text-align: right;
+}
+
+#subtitle {
+  background-color: color: #000000;
+  width: 900px;
+  text-align: right;
+}
+
+#container {
+  background-color: #d4d4d4;
+  border: solid 1px #02CCFC;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 780px;
+  padding: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: justify;
+}
+#head {
+  background-color: #d4d4d4;
+  width: 760px;
+  height: 17px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 6px;
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #02CCFC;
+}
+
+#head a {
+  color: #000000;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#head a:hover {
+  color: #b21818;
+}
+
+#head div.menu {
+  background-color: #d4d4d4;
+  position: relative;
+  border: solid 2px #02CCFC;
+  float: left;
+  margin-right: 5px;
+  text-align: left;
+}
+
+#credits {
+  background-color: #d4d4d4;
+  width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  text-align: right;
+  border: solid 1px #02CCFC;
+  height: 15px;
+  font-size: 10px;
+}
+
+#important {
+  width: 100%;
+  background-color: #d4d4d4;
+  color: #000000;
+  font-family: Courier New, Monospace, Terminus;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#subnews {
+  background-color: #d4d4d4;
+  width: 740px;
+  font-style: Italic;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  text-align: right;
+  height: 15px;
+  font-size: 10px;
+}
+
+#comments {
+  background-color: #000000;
+  width: 500px;
+  color: #FFFFFF;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  text-align: right;
+  border: solid 1px #02CCFC;
+  font-size: 11px;
+}
